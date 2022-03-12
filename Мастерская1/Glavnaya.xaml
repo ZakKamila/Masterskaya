@@ -1,0 +1,22 @@
+﻿<Window x:Class="Мастерская1.Glavnaya"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Мастерская1"
+        mc:Ignorable="d"
+        Title="Glavnaya" Height="500" Width="800">
+
+    <Grid Margin="10,0,-0.667,156.667">
+        <Image Margin="-14,10,0,-159" Source="chasy.jpg" Stretch="Fill"/>
+
+
+        <Grid Background="#808080" Margin="-14,0,0,247"/>
+        <TextBlock Text="Time Street" FontSize="40"  HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Comic Sans MS" Margin="271,4,263,247" RenderTransformOrigin="0.405,0.651" Width="250"/>
+        <Button Content="Каталог" Background="#fac716" FontFamily="Comic Sans MS"  FontSize="27" HorizontalAlignment="Left" Margin="271,130,0,0" VerticalAlignment="Top" Width="225" Height="42" Click="Button_Click_1"/>
+        <Button Content="Заказ" Background="#fac716" FontFamily="Comic Sans MS"  FontSize="27" HorizontalAlignment="Left" Margin="271,195,0,0" VerticalAlignment="Top" Width="225" Height="42" Click="Button_Click_2"/>
+        <Button Content="О нас" Background="#fac716"  FontFamily="Comic Sans MS"  FontSize="27" HorizontalAlignment="Left" Margin="271,265,0,0" VerticalAlignment="Top" Width="225" Height="42" Click="Button_Click_3"/>
+
+
+    </Grid>
+</Window>

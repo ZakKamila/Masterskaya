@@ -1,0 +1,31 @@
+﻿<Window x:Class="Мастерская1.zakaz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Мастерская1"
+        mc:Ignorable="d"
+        Title="zakaz" Height="500" Width="800">
+    <Grid>
+
+        <Image Margin="0,0,0.333,-0.333" Source="fon2.jpg" Stretch="Fill"/>
+
+
+
+        <TextBlock Text="Заказ" FontSize="40"  HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Comic Sans MS" Margin="341,10,202.6,404.4" RenderTransformOrigin="0.405,0.651" Width="250"/>
+        <TextBlock Text="ФИО:" FontSize="27"  HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Comic Sans MS" Margin="289,123,334.6,290.4" RenderTransformOrigin="0.405,0.651" Height="57" Width="170"/>
+        <TextBlock Text="Номер телефона:" FontSize="27"  HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Comic Sans MS" Margin="123,180,441.6,252.4" RenderTransformOrigin="0.405,0.651"/>
+        <TextBlock Text="Адрес получателя:" FontSize="27"  HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Comic Sans MS" Margin="105,248,428.6,184.4" RenderTransformOrigin="0.405,0.651" Width="260"/>
+        <TextBlock Text="Название и модель часов:" FontSize="27"  HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Comic Sans MS" Margin="29,314,359.6,118.4" RenderTransformOrigin="0.405,0.651" Width="405"/>
+
+        <Button Content="Заказать" FontFamily="Comic Sans MS" Background="#fac716" FontSize="27" HorizontalAlignment="Left" Margin="255,392,0,0" VerticalAlignment="Top" Width="310" Height="49" RenderTransformOrigin="0.389,0.543" Click="Button_Click_1"/>
+        <Button Content="Назад" HorizontalAlignment="Left" FontFamily="Comic Sans MS" Width="96" Margin="0,444,0,0.667" Click="Button_Click"/>
+        <TextBox x:Name="FIO"  Margin="380,123,143.6,308.4"/>
+        <TextBox x:Name="Phone"  Margin="380,185,143.6,246.4"/>
+        <TextBox x:Name="address"  Margin="380,248,143.6,183.4"/>
+        <TextBox x:Name="Name"  Margin="380,314,143.6,117.4"/>
+
+
+
+    </Grid>
+</Window>
